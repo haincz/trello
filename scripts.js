@@ -110,6 +110,8 @@ $(function() {
         board.addColumn(column);
 
 
+    });
+
     // TWORZENIE KOLUMN
         var todoColumn = new Column('Do zrobienia');
         var doingColumn = new Column('W trakcie');
@@ -127,10 +129,6 @@ $(function() {
         // DODAWANIE KART DO KOLUMN
         todoColumn.addCard(card1);
         doingColumn.addCard(card2);
-
-
-  });
-
 
 
 })
